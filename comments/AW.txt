@@ -1,0 +1,135 @@
+Hi Alex,
+
+please find below my comments on the paper draft  - nice work!
+My main concern is, that the answer to the question you raise in Sect 4.3.3 
+is clearly YES (dust may explain the colours too). But the title and the conclusion
+of the paper does not reflect this reservation. 
+
+
+best
+Axel
+
+
+############################################
+Abstract:
+what about numbers for the over densities both for 
+LBGs and SMGs compared to the field (how significant is this finding)
+
+"predominately residing near the centres (< a few megaparsec) of over-densities."
+avoid to use twice “over-densities” - reword (e.g. predominantly residing near (<few Mpc) the
+central ultra-red source.)
+
+spell out ETG (do not use abbreviations in the abstract)
+
+You apparently do not take any mass evolution from z=3 to z=0 into account
+for the last statement in the abstract. But I feel this should be done
+to get a more realistic M* estimate by z=0.
+
+
+Sect 2.1
+last sentence, numbers for SNR > 3.5 and 4.0 are swapped
+
+Sect 2.3
+it remains unclear to me how you can do 10000 realisations of the
+SPIRE photometry for a given source. wouldn't this lead to a maximum a 
+few different solutions since you are fitting the same data all the
+time? Presumably I didn’t get the point here.
+
+What justifies the cut at Pur > 35%? naively I would expect that this 
+should be > 50% to justify that a source is called red.
+Ok,I see that you address this point just below. but what remains puzzling is,
+that you appear to set this limit such that you still have a significant sample
+size without bothering too much if these source are indeed still ultra-red.
+Doesn't this imply a strong bias in the source selection?
+
+Sect 2.4
+I think it would help to explain how the total set of the 2810 sources was 
+constructed. is there a Scuba-2 SNR cut involved or is this based on a significant
+detection in N SPIRE/PACS bands?
+
+the integral between 8-1000mu is the IR luminosity, not FIR (FIR is 40-120mu 
+according to the definition in Helou ea 1985)
+Kennicut 1998 gives 5.8e9 not 1.7e10 for the conversion between LFIR and SFR.
+is the difference the IR/FIR definition (?, looks unlikely to me give that this
+is a factor 3)
+
+Sect 3.1:
+Why is does fidelity parameter should have a Gaussian shape around the central
+source? To me this weighing by projected distance from the central source 
+appears poorly justified.
+
+It should be made clearer, that the over-densities are measured at 850micron,
+not at SPIRE wavelength (if I got this correctly)
+
+It would be interesting to discuss if/how the clustering is related to your Pur 
+parameter. Not only to test that ultra-redness is a relevant parameter here, but
+also because the mean redshift changes with Pur.
+
+
+Sect 3.3:
+Given that most of the photo-clusters discussed here do not contain ultra-red
+sources you should briefly mention how the computation of the over density parameter
+was done in this cases (I assume centering on the proto-cluster and using the same
+Reff)
+
+
+Concerning the z=5.3 over density:
+is COSMOS- AxTEC-3 an ultra-red source according to your criteria?
+I think its nevertheless interesting to discuss if there are potentially additional
+sources in the wider environment around this known proto cluster based on your 
+over-density analysis. 
+
+Mention explicitly that you do not find an over-density for the Hung ea and 
+GOODS-N clusters. (I assume this is the outcome of this analysis)
+
+Sect 3.4:
+I think its ok to discuss the different effects on nu_rest/nu_obs in a PhD, but
+discussing here the strong gravitational field effect sounds over the top to me
+(in particular since you are analysing z_photo's here)
+
+
+Sect 3.5:
+numbers in the text do not match the numbers in the caption 
+to Fig 6 (e.g. SFR 1100 vs 1400).
+
+Isn't it common practice to estimate the "missing" sources with a 
+completeness function? maybe add a statement why this was not done
+in this analysis.
+
+Sect 4.1
+"by the ultra-red galaxies presented within this chapter. " PhD left over
+
+
+Sect 4.3.1
+There must be numerical predictions on how this stellar mass evolves
+from z=3 to z=0. I think it would be worth adding this to get a feeling 
+for a more realistic M* at z=0
+
+Fig 9:
+"This increasing average stellar mass with radius suggests .."
+increasing => decreasing
+
+
+Sect 4.3.2:
+Maybe it would be also worth to mention at the end of this section that the
+larger stellar mass of the LBGs closer to the ultra-red galaxies also
+hints towards a more metal (=dust) enriched environment via the mass
+metallicity relation.
+
+Somehow the conclusion from this section is not taken into account
+in the title, nor in the conclusions of the paper. If a reasonable
+amount of dust reddening can explain the color difference in the LBGs, where
+is then the base for claiming that the red sequence emerges faster in
+these over densities?
+
+
+Fig 10 top:  unclear where the location of the blue/red sequence and
+    the green valley locations for the redshifts come from - is this from
+    a semi-analytic model? add references or give more details.
+
+Conclusions:
+“Thus, we have shown that there is a sizeable contribution from LBGs to 
+these high-redshift systems signposted by ultra-red galaxies.”
+
+Given that all these results are based on photo_z’s I feel that “we have shown” is
+much too strong. FIR photo-z are very poor…

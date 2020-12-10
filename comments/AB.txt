@@ -1,0 +1,70 @@
+
+
+- you use proper distances in projection throughout. Usually people use comoving distances
+(including in the simulations)
+
+First line of abstract
+"ultra-red galaxies formation the S2CLS” - do you mean “from the S2CLS” rather than “formation”?
+
+MNRAS will make you spell out DSFGs, LBGs and ETGs in the Abstract
+
+isn’t “absolute colour” the same as colour, given that the luminosity distance is the same? Or
+are you trying to say “rest-frame B-I colours”?
+
+Introduction, end of first paragraph. At this point you haven’t told us the redshifts you
+are considering, so the Lyman Break mention seems a bit out of place (at lower redshifts
+things like H-alpha have been used for fairly accurate star formation measurements
+for decades). Also, the implication that at high redshifts the LBG work has been superseded
+by sub-mm isn’t how most people would view it (LBGs still outnumber SMGs, probe
+lower SFRs out to higher-zs, and the most recent work on UV slopes and also some ALMA
+work imply that many or most of the high-z LBGs are relatively dust-free).
+
+I’m not sure footnote 1 is necessary (or even makes sense - why 100um? surely the peak depends
+on temperature…)
+
+page 2 top right - not sure we are currently short of proto-cluster candidates (given e.g. all the SPT and Planck
+SZ candidate clusters, and plenty of red-sequence based candidates)
+
+final section of intro - need to use superscript for km/s units power in H_0 (km s^{-1} Mpc^{-1})
+
+Start of Section 2.3 - this is the only mention of LABOCA in the entire paper, and it’s not explained
+
+unlensed (equation 1), “likely lensed” paragraph 1 of Section 2.4
+
+The last full paragraph on page 4 seems a bit defeatist - the selection in this paper is less good
+than that in Paper I due to the lack of human inspection
+
+Page 5, end of paragraph 2
+"If the IMF were top heavy, then the SFRs calculated with equation (3) would be over-estimated by a factor of ≈ 3×.” -
+surely this factor depends on the slope of the IMF and any high-mass cut-off. What “top heavy” IMF
+did you assume?
+
+page 5 second column paragraph 2 - not sure you can “subtend” a redshift (subtend refers to an arc,
+or transverse extent). Perhaps use “occupy”
+and the inequality is round the wrong way (should be 4.9'>R_eff>3.8’)
+and in paragraph 5:
+"In this idealised representation, each surrounding galaxies” —> "In this idealised representation, each _of the_ surrounding galaxies"
+
+Page 6, end of first column "The former indicate where the ultra-red galaxies lie in relation to their closest over-density peaks.” -
+it is unclear what “The former” refers to - the previous sentence just mentions Fig 4.
+
+page 7 top of right column (and equation 9) - is it really worth mentioning gravitational redshift? This
+should be insignificant
+
+page 14 paragraph 1
+"Or, is their any dependence” —> "Or, is _there_ any dependence”
+
+footnotes 6&7 (page 14) overlap the second column of text
+
+page 14 second column paragraph 3 "LBGs around ultra-red galaxies at z ∼ 3 should have limited-to-no data at wavelengths shorter than the central wavelength of U/B bands”
+- easier to say the LBGs at z~3 should be undetected in the U-band due to the Lyman limit, and should
+be faint in the B-band due to Lyman-alpha forest absorption. Don’t use “no data” - it implies the imaging doesn’t exist, when
+you mean to say they are undetected. And later in this paragraph there is the confusing text
+"we required that their detected K-band photometry was below the (3–5)-σ_K limiting magnitude” - are you saying
+they should be undetected in K (before 3sigma? or 5sigma?) - I rather think you want them to be detected in K-band
+(rest-frame B/V) as this is more sensitive to the stellar mass than the rest-UV. But the text might be confusing
+due to using magnitudes - stick to saying if it is brighter or fainter than the S/N=3 (or 5?)
+
+footnote 8 "(i.e. apertures containing no containing no galaxies)” - some missing or repeated text here?
+
+

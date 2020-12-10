@@ -1,0 +1,13 @@
+The main things are: 
+1) Sample selection: The ‘ultra-red’ sample is DFSGs with >30% chance of being red, but most of them are 30–50% probability (fig 1) — i.e. most of the sample are most likely NOT actually ‘ultra red’. I get wanting to have a “reasonable” size sample, but I think you need to be open throughout about how this affects your results. i.e. if you had a 50% cut, to 68% cut how are the overdensity maps, stellar mass, colour changes etc affected. 
+
+2) You don’t actually show an increase of galaxies around UR DSFGs are on the red sequence. You show that galaxies around UR DSFGs are redder than the field. That could be due to older stellar populations, but you also show that it could *very* easily be due to dust. Be clear about this, and take out all the red sequence parts from the discussion and conclusions because you don’t show what you currently claim. 
+
+3) Using different SNR cuts in the S2CLS and S2COSMOS catalogues is a strange choice. It would be much better to cut both to SNR>4. Then you have consistency between the fields, and you will likely have much less of a problem with sources that don’t have a “good” FIR photo-z (section 2.4). (because those 459 sources are all around 4sigma and likely mostly from the S2CLS catalogue). You are better excluding them because of SNR (which is an easy-to-understand uniform cut than the strange photo-z error cut, which is fairly nebulous). Frankly I’d also consider cutting both catalogues to 4.5 or 5sigma where they are much more reliable anyway (see the catalogue papers), and would get you a much cleaner sample without needing “fudge” it or leave the reader worrying about biases in what you’ve excluded.
+
+4) In section 3, I’m worried about the choice of R_eff = 4.9 arcmin. It would be good to (a) motivate that with data e.g. likely halo masses from clustering + size scales from simulations of those masses at the relevant z AND (b) explore how the choice of that scale affects the results. Are over densities still seen on bigger/smaller scales. Is there a different scale at which the over densities are more ubiquitous etc.
+
+5)  I’m not convinced that you’ve demonstrated that UR DSFGs are near the centres of protoclusters. You may have demonstrated that they’re in overdense regions but not that they’re at the centres of them. Figure 4 (+appendix) show the same — in most cases they're not the centre of an over density, but just in a region between (proto)clusters and voids… 
+
+5) Throughout section 4 you refer to “ultra red galaxies” but I think you are actually discussing companions/nearby galaxies to UR galaxies — be clear about which population it is.
+

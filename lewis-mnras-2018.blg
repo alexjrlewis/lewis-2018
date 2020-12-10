@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: lewis-mnras-2018.aux
+The style file: mnras.bst
+Database file #1: lewis-mnras-2018.bib.bib
+Repeated entry---line 2252 of file lewis-mnras-2018.bib.bib
+ : @article{ikarashi11
+ :                    ,
+I'm skipping whatever remains of this entry
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 80 entries,
+            2881 wiz_defined-function locations,
+            1369 strings with 49025 characters,
+and the built_in function-call counts, 35965 in all, are:
+= -- 3030
+> -- 2449
+< -- 103
++ -- 1127
+- -- 308
+* -- 4834
+:= -- 5415
+add.period$ -- 0
+call.type$ -- 80
+change.case$ -- 160
+chr.to.int$ -- 80
+cite$ -- 80
+duplicate$ -- 1796
+empty$ -- 1847
+format.name$ -- 564
+if$ -- 6168
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 80
+newline$ -- 253
+num.names$ -- 461
+pop$ -- 435
+preamble$ -- 1
+purify$ -- 320
+quote$ -- 0
+skip$ -- 1003
+stack$ -- 0
+substring$ -- 2130
+swap$ -- 825
+text.length$ -- 330
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 720
+warning$ -- 0
+while$ -- 550
+width$ -- 0
+write$ -- 815
+(There was 1 error message)

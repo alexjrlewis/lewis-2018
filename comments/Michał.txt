@@ -1,0 +1,298 @@
+-----------
+Abstract
+-----------
+
+"a sample of 64 ultra-red galaxies formation the S2CLS and S2COSMOS
+imaging surveys"
+
+formation -> in?
+
+-----------
+1 INTRODUCTION
+-----------
+
+First paragraph:
+"a given DSFG is capable of producing a Mstars ~ 1011-M galaxy"
+
+Remove "galaxy" or change "a Mstars ~ 1011-M galaxy" to "~ 1011-M of stars"
+
+Sixth paragraph:
+"Over-Dense regions are thought"
+
+Dense-> dense
+
+Second to last paragraph:
+'Such traits include being able to determine whether the formation of
+the red sequence is happening at a faster rate"
+
+Our ability to determine this is not a trait of galaxies, so rephrase this to
+"Such traits include the formation of the red sequence being faster"
+Then remove "whether there is" further in this sentence.
+
+Last paragraph:
+"in which 1' corresponds to a (proper) distance of ≈ 0.5Mpc at z = 3"
+
+distance -> diameter
+
+-----------
+2.2 PACS and SPIRE Photometry
+-----------
+
+First paragraph:
+Give the link when you mention the Herschel Database in Marseille.
+
+Second paragraph:
+More details needed here. Do you fit only at the positions of a given
+SCUBA2 source? If so, why do you have 6 parameters (ra,dec,flux, …)?
+It seems that you fit two positions, but this is not explained. For
+the next SCUBA2 source do you use the map with the brighter one
+subtracted? This is not ideal, as it would be better to fit all the
+sources simultaneously (at least those overlapping).
+
+"The resulting two-dimensional fits were then subtracted from their
+respective Herschel images – effectively deblending the Herschel
+images using a Scuba-2 prior"
+
+If you fit one source at a time, then this is not deblending.
+
+"Finally, we made no attempt to fit multiple gaussians to the Herschel
+images in cases where the Scuba-2 detections are within a Scuba-2 PSF
+of each other."
+
+Do you have SCUBA2 sources closer to each other than a SCUBA2 beam?
+This is weird. Don't you mean Herschel beam?
+
+-----------
+2.4 FIR Photometric Redshifts
+-----------
+
+I would add "and physical properties" to the section title, as this is
+what you derive towards the end.
+
+Fourth paragraph:
+"The general 850-um selected population peaks at z ~ 2, whilst the
+ultra-red galaxy sample presented here is shifted to z ~ 3 -
+reinforcing the effectiveness of this colour-selection technique"
+
+I don't see that this reinforces the effectiveness of the selection,
+because you got this result by construction. You selected red sources
+and you assumed normal (~40 K) dust temperature for them, so you are
+guaranteed to get high redshifts. The true reinforcement would be the
+high redshift measured independently. Otherwise this may be due to too
+high temperature assumed, or problems with photometry.
+
+Second paragraph:
+"would be need to be scaled down"
+
+would be -> would
+
+"If the IMF were top heavy"
+
+were -> was
+
+-----------
+3.1 Galaxy-Centric Over-Density
+-----------
+
+The right-hand side of Eq 6 doesn't give the unit of distance, so
+something is wrong.
+
+Third paragraph:
+"varies from 4.9' < Reff < 3.8'."
+
+from -> between
+Reverse the inequality sign (or swap 4.9 and 3.8).
+
+-----------
+3.2 Proximity to Closest Over-Density Peak
+-----------
+
+Second paragraph:
+"which I used to search"
+
+I -> we
+
+-----------
+3.3 Previously Identified Proto-Clusters
+-----------
+
+First bullet point:
+"at the heart this Casey et al. structure)"
+
+this Casey et al. -> of this
+
+Rest of the bullet point:
+Note that there are no ultra-reds in these proto-clusters (if this is true).
+
+-----------
+3.5 FIR Total Dust Masses and SFRs
+-----------
+
+Third paragraph:
+"the ‘missing’ number of galaxies"
+->
+"the  number of ‘missing’ galaxies"
+
+-----------
+Fig 4
+-----------
+
+"I show contours"
+
+I -> we
+
+-----------
+4 OPTICAL/NIR ANALYSIS
+-----------
+
+"is their any dependence"
+
+their -> there
+
+-----------
+4.1 Optical/NIR Data Acquisition
+-----------
+
+First paragraph:
+"presented within this chapter" ->
+"in this paper"
+
+Second to last paragraph:
+"LBGs around ultra-red galaxies at z ~ 3 should have limited-to-no data"
+
+data -> flux
+(otherwise you claim that there was no data coverage at these positions)
+
+"To further increase the completeness of this sample"
+
+completeness -> robustness
+(you decrease the completeness when you remove sources from the catalogue)
+
+-----------
+Figure 7
+-----------
+
+From the caption it is unclear what the red histogram on the right
+panel is. Are these FIR redshifts of all DSFG? If so, then the
+mismatch at z~1 is the result of the problem we discussed at some
+point - the K-band catalogue is to dense, so you are guaranteed to
+find many wrong associations if you don't use information at other
+wavelengths.
+
+I would remove "Fainter" at the top. It doesn't add much.
+
+"Fainter apparent K-band magnitudes correspond to brighter galaxies."
+
+This is wrong. Do you mean *Lower* magnitudes? If so, this is trivial,
+so remove.
+
+-----------
+Figure 8
+-----------
+
+"Potential counterparts with LRs less than LR < 1, have FIR
+photometric redshifts that are significantly higher than the
+optical/NIR ones"
+
+To be precise, counterparts have optical redshifts, not FIR redshifts,
+so I would rephrase this to.
+"Potential counterparts with LRs less than LR < 1, have optical/NIR
+photometric redshifts that are significantly lower than the FIR
+redshifts
+
+I don't understand what the colour-scale means. The colour bar goes to
+100%, so in what sense are the blue pixels 100%?
+
+-----------
+4.2 Robust Counterparts to DSFGs
+-----------
+
+Second bullet point:
+"‘total(K, z)’ image, which contains a contribution from the
+‘background’ galaxies and from the ‘real’ counterparts"
+
+But most of these galaxies will be in the foreground not background
+wrt to the DSFGs (as demonstrated on Fig 8).
+
+Footnote 8:
+"i.e. apertures containing no containing no galaxies"
+
+Remove "no containing".
+
+Second to last paragraph:
+"after the centre of its search radius had be randomly tweaked."
+
+Say by how much, as the offset needs to be large enough so that you
+are not within the same environment anymore.
+
+-----------
+4.3 Stellar Masses and Absolute Colours of LBGs
+-----------
+
+Last paragraph:
+"to given ultra-red galaxy"
+
+given -> a given
+
+"Thus, the contribution from surrounding LBGs is definitely not insignificant"
+
+It is unclear the contribution to what you are referring to.
+
+-----------
+Figure 9
+-----------
+
+"This increasing average stellar mass"
+
+increasing -> decreasing
+
+-----------
+4.3.1 Stellar Masses
+-----------
+
+Second paragraph:
+"(due to the multiplicity of DSFGs),"
+
+I would change
+DSFGs -> submm-selected sources
+because galaxies do not have multiplicity - this is a property of
+sources selected in submm maps, which may be in fact blends of several
+galaxies.
+
+Last paragraph:
+"Thus, the potential total z ~ 0 stellar mass of these candidate
+protoclusters is ~ 8x1011M"
+
+It is unclear how you got this value of 8e11.
+
+-----------
+Figure 10
+-----------
+
+It is unclear from the captions how the histograms were calculated.
+
+"a younger stellar at these distant epochs"
+
+stellar -> stellar population
+
+The last sentence in the caption is truncated.
+
+-----------
+4.3.2 Absolute Colours
+-----------
+
+Second to last paragraph:
+"in the top-panel of Fig. 10, we show the approximate locations of the
+red/blue sequences and the socalled ‘green valley’ at z < 1 and 2 < z
+< 5, each modelled as a Gaussian distribution"
+
+You need to add details on how these distributions were calculated.
+
+-----------
+5 CONCLUSION
+-----------
+
+Last paragraph:
+"that my association probability has failed to associate"
+
+my -> our
